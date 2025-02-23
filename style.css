@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 124px;
+  background-color: #f9e0ae;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: "Jim Nightshade", serif;
+}
+
+.menu_items {
+  display: flex;
+  align-items: center;
+}
+
+.header-container h2 {
+  font-size: 20px;
+  color: black;
+  margin: 0 15px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.header-container h1:hover {
+  text-decoration: underline;
+}
+
+.header-container h5 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #c24914;
+  line-height: 20px;
+  height: 39px;
+  width: 150px;
+  left: 1030px;
+}
+.header-container h5:hover {
+  background-color: rgb(235, 120, 120);
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 487px;
+  margin: center;
+  padding: 20px;
+  margin-top: 40px;
+  
+}
+
+.left-section {
+  margin: center;
+  width: 50%;
+}
+
+.left-section p {
+  font-weight: 700;
+  font-size: 48px;
+  color: black;
+  line-height: 72px;
+  top: 76px;
+  height: 144px;
+  display: flex;
+}
+
+.left-section h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #00000075;
+  font-weight: normal;
+  display: flex;
+}
+
+.left-section h2 {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #682c0e;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.left-section h2:hover {
+  background-color: darkred;
+}
+
+.right-section img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  height: 487px;
+  margin: center;
+}
+
+.second-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+  height: 379px;
+  margin-top: 60px;
+  
+}
+
+.right-sections {
+  width: 50%;
+}
+
+.right-sections h1 {
+  font-weight: 600;
+  font-size: 48px;
+  color: black;
+  height: 144px;
+  display: flex;
+}
+
+.right-sections p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000000;
+  font-weight: normal;
+  font-weight: normal;
+}
+
+.left-sections {
+  width: 50%;
+}
+
+.left-sections img {
+  width: 100%;
+  border-radius: 10px;
+  height: 379px;
+  margin: center;
+}
+
+.third-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 379px;
+  margin-top: 60px;
+  
+}
+
+.left-sectionss {
+  width: 50%;
+}
+
+.left-sectionss h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  width: 530px;
+  height: 216;
+  margin-top: 45px;
+}
+
+.right-sectionss img {
+  width: 100%;
+  height: 292px;
+  max-width: 425px;
+}
+
+.fourth-container {
+  width: 100%;
+  background-color: #f8e1b6;
+  height: 140px;
+  
+}
+
+.subscription-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  height: 140px;
+}
+
+.subscription-box input {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  width: 300px;
+  height: 60px;
+}
+
+.subscription-box button {
+  background-color: #b4471a;
+  color: white;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  height: 60px;
+  font-weight: 800px;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+}
+
+.subscription-box button:hover {
+  background-color: #8e3613;
+}
+
+.subscription-box input::placeholder {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  width: 122px;
+  height: 30px;
+  padding: 50px;
+  font-weight: 600;
+}
+
+.fifth-container {
+  display: flex;
+  align-items: cenetr;
+  background-color: #ffffff;
+  padding: 80px;
+
+  width: 100%;
+}
+
+.content {
+  max-width: 300px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.join-btn {
+  background-color: #ff8c00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-btn:hover {
+  background-color: #e07b00;
+}
+
+.image-section {
+  position: relative;
+}
+
+.main-image {
+  width: 100%;
+
+  height: 300px;
+}
+
+.floating-image {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border: 3px solid white;
+}
+
+.user1 {
+  top: 200px;
+  left: -300px;
+}
+.user2 {
+  bottom: 30px;
+  left: 10px;
+}
+.user3 {
+  top: 10px;
+  left: 60px;
+}
+.user4 {
+  top: 10px;
+  right: 20px;
+}
+
+.wrapper {
+  padding: 0 100px;
+  display: flexbox;
+}
+
+
+.footer{
+  padding: 0 100px;
+}
+
+
+.sixth-container {
+  background-color:#F9E0AE;
+  padding: 40px 100px; 
+  width: 100%;
+  
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+.footer-logo {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: "Jim Nightshade", serif;
+}
+
+.footer-links {
+  max-width: 200px;
+}
+
+
+.footer-links h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  font-size: 12px;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-links p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.social-icons img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .first-container{
+    flex-direction: column;
+  }
+
+  .left-section{
+    width: 100%;
+  }
+}
+
+
+
